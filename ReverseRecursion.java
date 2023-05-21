@@ -3,7 +3,7 @@ void reverseArray(int[] x){
 }
 
 void reverse(int[] x, int i, int j){
-    if(i<j){//Swap
+    if(i<j){
        int tmp = x[i];
        x[i] = x[j];
        x[j] = tmp;
